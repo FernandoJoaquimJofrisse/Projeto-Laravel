@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+header {
+  height: 60px;
+  background: #39aae1;
+  display: flex;
+  justify-content: center;
+}
+header #content {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+header #content #logo, header #content nav {
+  flex: 1;
+}
+header #content h1 {
+  color: #fff;
+  font-size: 22pt;
+  font-style: italic;
+}
+header #content nav {
+  margin: 0px;
+  padding: 0px;
+}
+header #content #cart_one {
+  position: absolute;
+  right: 19%;
+}
+header #content ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+header #content ul li {
+  margin: 20px;
+  font-size: 17pt;
+  font-weight: bold;
+}
+header #content ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s ease;
+}
+header #content ul li a:hover {
+  background: #071d38;
+  color: #39aae1;
+  padding: 5px;
+}
+
+main {
+  background: #0870a0;
+}
+main section #shopp_info {
+  display: flex;
+  justify-content: center;
+}
+main section #shopp_info #shopp_promotion {
+  width: 1200px;
+  height: 80px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section #shopp_info #shopp_promotion p {
+  color: #fff;
+  font-size: 17pt;
+  font-style: italic;
+}
+main section #shopp {
+  display: flex;
+  justify-content: space-between;
+}
+main section #shopp #picture {
+  width: 300px;
+  height: 330px;
+  border: 2px solid #222;
+}
+main section #shopp #picture #cart_info {
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+main section #shopp #picture #cart_info a {
+  text-decoration: none;
+  color: #fff;
+}
+main section #shopp #picture #cart_info a:hover {
+  background: #222;
+  padding: 2px;
+}
+
+footer {
+  height: 200px;
+  background: #39aae1;
+  display: flex;
+  justify-content: center;
+}
+footer #info_footer {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+}
+footer #info_footer #left_side, footer #info_footer #right_side, footer #info_footer #bank {
+  flex: 1;
+}
+footer #info_footer #bank {
+  justify-content: space-around;
+}
+footer #info_footer #bank #info_bank {
+  font-style: italic;
+  font-size: 17pt;
+  margin: 5% 0 5% 5px;
+  color: #fff;
+}
+footer #info_footer #bank #card_bank {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12%;
+}
+footer #info_footer #left_side {
+  height: 200px;
+  flex: 1;
+}
+footer #info_footer #left_side ul {
+  list-style: none;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+footer #info_footer #left_side li {
+  font-style: italic;
+  font-size: 17pt;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+footer #info_footer #right_side {
+  height: 200px;
+  flex: 1;
+}
+footer #info_footer #right_side #right_info {
+  font-style: italic;
+  font-size: 17pt;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+footer #info_footer #right_side #right_info #link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+footer #info_footer #right_side #right_info p {
+  text-decoration: none;
+  color: #fff;
+  font-style: italic;
+}
+footer #info_footer #right_side #social_networks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+footer #info_footer #right_side p, footer #info_footer #right_side a {
+  text-decoration: none;
+  font-style: italic;
+}
+footer #info_footer #right_side #link {
+  width: 200px;
+  height: 25px;
+  border-doted: #222;
+}
+
+/*# sourceMappingURL=style.css.map */
